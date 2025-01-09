@@ -26,12 +26,16 @@ Clone the Repo to have already the directory structure and the llamaCPP binaries
 - install the following dependencies:
   `pip install --upgrade gradio tiktoken openai`
 
+
+<img src='https://github.com/fabiomatricardi/granite3.1-gradio/raw/main/twoWindows.png' wodth=900>
+
+### 2 terminals strategy
 In one terminal window, from the `llamacpp` directory start the llama-server:
 ```bash
 llama-server.exe -m model\granite-3.1-2b-instruct-Q5_K_L.gguf -c 8192 -ngl 0 --temp 0.2 --repeat-penalty 1.45
 ```
 
-with the venv activated then run:
+with the venv activated, in another window then run:
 ```bash
 python .\testgradioGRANITE.py
 ```
@@ -42,6 +46,11 @@ Used stack:
 - llamacpp
 - granite-3.1-2b-instruct-Q5_K_L.gguf
 - gradio
+
+
+### The Gradio GUI
+<img src='https://github.com/fabiomatricardi/granite3.1-gradio/raw/main/runningAPP.png' wodth=900>
+
 
 ### MODEL CARD
 ```
