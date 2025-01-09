@@ -9,6 +9,14 @@ Create a fast chatbot with 2 lines of code.
 This example is good only for quick check, but it doesn't allow much control
 
 
+### Folder structure
+```
+granite3.1-gradio
+├───llamacpp
+│   └───model
+└───venv
+```
+
 
 ### INSTRUCTIONS
 Clone the Repo to have already the directory structure and the llamaCPP binaries
